@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: myConsumer
+    qos-enable: false
+  registry:
+    protocol: zookeeper
+    address: 192.168.188.128:2181
+server:
+  port: 8001
