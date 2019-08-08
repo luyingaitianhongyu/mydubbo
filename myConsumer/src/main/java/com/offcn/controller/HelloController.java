@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: Mr.路
  * @date: 2019/08/07 16:03
  */
+//新增注释
 @RestController
 public class HelloController {
     @Reference
