@@ -14,4 +14,9 @@ public class HelloServiceImpl implements HelloService {
     public String sayHello(String name) {
         return name+"欢迎来学习";
     }
+
+    @Override
+    public void sayHello(Integer age) {
+        System.out.println(age+"xinzeng");
+    }
 }

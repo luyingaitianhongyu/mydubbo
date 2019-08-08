@@ -19,4 +19,8 @@ public class HelloController {
     public String hello(String name){
         return helloService.sayHello(name);
     }
+    @RequestMapping("/hello1")
+    public void hello1(Integer age){
+      helloService.sayHello(age);
+    }
 }
